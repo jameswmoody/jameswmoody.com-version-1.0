@@ -1,0 +1,62 @@
+[07-Dec-2016 23:20:24 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:20:24 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:21:20 UTC] PHP Notice:  Undefined variable: customerCollection in /home/jameswmoody/public_html/charles/customer.php on line 46
+[07-Dec-2016 23:21:20 UTC] PHP Notice:  Undefined variable: customerCollection in /home/jameswmoody/public_html/charles/customer.php on line 52
+[07-Dec-2016 23:21:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jameswmoody/public_html/charles/customer.php on line 52
+[07-Dec-2016 23:21:20 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:21:20 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:21:20 UTC] PHP Notice:  Undefined variable: clientToken in /home/jameswmoody/public_html/charles/includes/footer.php on line 16
+[07-Dec-2016 23:22:35 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:22:35 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:24:59 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:24:59 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:25:10 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:25:10 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:26:34 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:26:34 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:27:07 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:27:07 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:33:47 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:33:47 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:34:10 UTC] PHP Warning:  require_once(braintree-php-3.8.0/lib/Braintree.php): failed to open stream: No such file or directory in /home/jameswmoody/public_html/charles/checkout.php on line 11
+[07-Dec-2016 23:34:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree-php-3.8.0/lib/Braintree.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/jameswmoody/public_html/charles/checkout.php on line 11
+[07-Dec-2016 23:40:09 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:40:09 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:40:33 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkoutt.php on line 23
+[07-Dec-2016 23:42:12 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:42:12 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:42:36 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkoutt.php on line 23
+[07-Dec-2016 23:43:44 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:43:44 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:44:16 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkoutt.php on line 23
+[07-Dec-2016 23:45:07 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:45:07 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:45:26 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkoutt.php on line 23
+[07-Dec-2016 23:45:35 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:45:35 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:46:37 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:46:37 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:46:55 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkoutt.php on line 23
+[07-Dec-2016 23:47:34 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[07-Dec-2016 23:47:34 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[07-Dec-2016 23:47:47 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkout.php on line 23
+[08-Dec-2016 00:10:31 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[08-Dec-2016 00:10:31 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[08-Dec-2016 00:11:17 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkout.php on line 23
+[08-Dec-2016 00:13:23 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[08-Dec-2016 00:13:23 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[08-Dec-2016 00:13:38 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/jameswmoody/public_html/charles/checkout.php on line 31
+[08-Dec-2016 00:14:06 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/jameswmoody/public_html/charles/checkout.php on line 31
+[08-Dec-2016 00:15:50 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkout.php on line 23
+[08-Dec-2016 03:28:11 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[08-Dec-2016 03:28:11 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[08-Dec-2016 03:28:19 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[08-Dec-2016 03:28:19 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[08-Dec-2016 03:28:22 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[08-Dec-2016 03:28:22 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[08-Dec-2016 03:29:14 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkout.php on line 23
+[08-Dec-2016 22:42:52 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[08-Dec-2016 22:42:52 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[09-Dec-2016 18:57:13 UTC] PHP Notice:  Undefined variable: APIkeys in /home/jameswmoody/public_html/charles/includes/footer.php on line 7
+[09-Dec-2016 18:57:13 UTC] PHP Notice:  Undefined variable: result in /home/jameswmoody/public_html/charles/includes/footer.php on line 13
+[09-Dec-2016 18:57:39 UTC] PHP Notice:  Undefined index: checkoutValue in /home/jameswmoody/public_html/charles/checkout.php on line 23

@@ -1,0 +1,8 @@
+[25-Oct-2016 19:45:52 UTC] PHP Notice:  Undefined index: name in /home/jameswmoody/public_html/mail/contact_me.php on line 69
+[25-Oct-2016 19:45:52 UTC] PHP Notice:  Undefined index: email in /home/jameswmoody/public_html/mail/contact_me.php on line 70
+[25-Oct-2016 19:45:52 UTC] PHP Notice:  Undefined index: phone in /home/jameswmoody/public_html/mail/contact_me.php on line 71
+[25-Oct-2016 19:45:52 UTC] PHP Notice:  Undefined index: message in /home/jameswmoody/public_html/mail/contact_me.php on line 72
+[25-Oct-2016 19:45:53 UTC] PHP Notice:  Undefined index: name in /home/jameswmoody/public_html/mail/contact_me.php on line 69
+[25-Oct-2016 19:45:53 UTC] PHP Notice:  Undefined index: email in /home/jameswmoody/public_html/mail/contact_me.php on line 70
+[25-Oct-2016 19:45:53 UTC] PHP Notice:  Undefined index: phone in /home/jameswmoody/public_html/mail/contact_me.php on line 71
+[25-Oct-2016 19:45:53 UTC] PHP Notice:  Undefined index: message in /home/jameswmoody/public_html/mail/contact_me.php on line 72

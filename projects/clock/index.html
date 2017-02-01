@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="http://jameswmoody.com/reset.css">
+  <link href="http://jameswmoody.com/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <center>
+    <div id="clock">
+      <h1>Countdown Clock</h1>
+      <div class="clock-cell">
+        <span class="days">00</span>
+        <center><p>Days</p></center>
+      </div>
+      <div class="clock-cell">
+        <span class="hours">00</span>
+        <center><p>Hours</p></center>
+      </div>
+      <div class="clock-cell">
+        <span class="minutes">00</span>
+        <center><p>Minutes</p></center>
+      </div>
+      <div class="clock-cell">
+        <span class="seconds">00</span>
+        <center><p>Seconds</p></center>
+      </div>
+    
+    <br><br>
+
+    <label>Month</label>
+    <select id="user-month">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    <label>Day</label>
+    <select id="user-day">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+    <label>Year</label>
+    <select id="user-year">
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+    </select>
+
+      <br>
+      <button class="btn btn-success">Start</button>
+  </div>
+
+  </center>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    $('button').click(function (){
+    var userMonth = document.querySelector('#user-month').value
+    var userDay = document.querySelector('#user-day').value
+    var userYear = document.querySelector('#user-year').value
+
+    var deadline = userYear + '-' + userMonth + '-' + userDay
+
+  function getTimeRemaining(endtime){
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var seconds = Math.floor( (t/1000) % 60 );
+    var minutes = Math.floor( (t/1000/60) % 60 );
+    var hours = Math.floor( (t/(1000*60*60)) % 24 );
+    var days = Math.floor( t/(1000*60*60*24) );
+    return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+    };
+  }
+
+  function initializeClock(id, endtime){
+  var clock = document.getElementById(id);
+  var timeinterval = setInterval(function(){
+    var t = getTimeRemaining(endtime);
+    document.querySelector('.days').innerHTML = t.days;
+    document.querySelector('.hours').innerHTML = t.hours;
+    document.querySelector('.minutes').innerHTML = t.minutes;
+    document.querySelector('.seconds').innerHTML = t.seconds;
+
+    if(t.total<=0){
+      clearInterval(timeinterval);
+    }
+  },1000);
+}
+
+  initializeClock('clock', deadline);
+
+  });
+
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://jameswmoody.com/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

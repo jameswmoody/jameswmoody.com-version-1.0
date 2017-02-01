@@ -1,0 +1,26 @@
+body {
+	background-color: #0E4BAC;
+}
+h1, p, span, label {
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+}
+span {
+	font-size: 42px;
+}
+.clock-cell {
+	display: inline-block;
+	height: 90px;
+	width: 80px;
+	margin: 5px;
+	background-color: #012D6B;
+	border-radius: 10px;
+}
+.btn {
+	margin-top: 10px;
+	padding-top: 3px;
+	height: 40px;
+	width: 200px;
+	font-size: 24px;
+	font-family: 'PT Sans', sans-serif;
+}
