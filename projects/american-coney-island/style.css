@@ -1,0 +1,117 @@
+/* Fonts */
+
+h1, h3, p {
+	color: #fff;
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 40px;
+}
+h1, h3 {
+	font-family: 'Waiting for the Sunrise', cursive;
+}
+h1 {
+	font-size: 70px;
+}
+h3 {
+	font-size: 30px;
+}
+p {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+/* Navigation */
+
+.navbar {
+	background-color: #A10006;
+	border-color:  #A10006;
+}
+.nav {
+	float: right;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover  {
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 26px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	text-decoration: underline;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #A10006;
+    color: #fff;
+}
+.logo {
+	margin-top: 16px;
+	width: 300px;
+	margin-bottom: 10px; 
+}
+
+/* Navigation for Mobile */
+
+.navbar-default .navbar-toggle {
+    border-color: #A10006;
+    padding-top: 10%;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #A10006;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+	.navbar-default .navbar-nav>li>a,
+	.navbar-default .navbar-nav>li>a:hover  {
+    color: #fff;
+    margin-top: 0;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 20px;
+    text-align: center;
+	}
+	.nav {
+	float: none;
+	}
+}
+
+
+#carousel {
+	width: 100%; 
+	height: 100vh; 
+  	background: url(http://www.thehopelesshousewife.com/wp-content/uploads/2012/05/Coney-Dogs-1-576x384.jpg) no-repeat center center;
+  	background-size: cover;
+}
+
+
+#section-1 {
+	background-color: #0000c6;
+}
+
+.test2 {
+	background-color: #A10006; 
+}
+.test2 p {
+	position: relative;
+	top: 80px;
+}
+
+.image-right{
+	float: right;
+	width: 100%;
+	margin: 0;
+}
+.row{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    padding-right: 0;
+}
+

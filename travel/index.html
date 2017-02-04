@@ -320,6 +320,20 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-md-6 travel-cell">
+          <h3><center>Boston</center></h3>
+          <a href="http://jameswmoody.com/travel/bos"><img src="http://jameswmoody.com/images/travel-imgs/bos/bos1.jpg" class="travel-thumbnail"></a>
+          <br>
+          <p>I had held off on visiting Boston for years since my original plan had been to take a road trip tour of New England and hit Boston along the way. Eventually though, an oppertunity came up that meant potentially having to move to Boston. If there was any possibility of me moving to a new city, I definately wanted to check the place out before-hand. Boston was actually pretty interesting to me (in a good way). It's pretty small and walkable which makes sense considering the city was planned long before cars or even trains were invented. The city is filled with history and you can find most of it by following the "Freedom Trail" (Google it). I also had some of the best Italian food I've ever tasted at Giacomo's in North End.<a href="http://jameswmoody.com/travel/bos"><button class="btn btn-default btn-xs">Photos</button></a></p><br>
+        </div>
+        <div class="col-md-6 travel-cell">
+          <h3><center>Providence</center></h3>
+          <a href="http://jameswmoody.com/travel/prov"><img src="http://jameswmoody.com/images/travel-imgs/prov/prov1.jpg" class="travel-thumbnail"></a>
+          <br>
+          <p>During the Boston trip, we decided to make the short drive to Providence, RI (because, why not). Our low expectations were met considering it is Rhode Island after all, but for an overnight stay it wasn't terrible. The best part I'd say was the Freedom Hill neighborhood which had a strip of bars and more Italian restaurants. Not a ton else I can say about Providence.<a href="http://jameswmoody.com/travel/prov"><button class="btn btn-default btn-xs">Photos</button></a></p><br>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-12">
           <h1><center>International</center></h1>
         </div>
@@ -349,11 +363,10 @@
           <h3><center>Canada</center></h3>
           <a href="http://jameswmoody.com/travel/can"><img src="http://jameswmoody.com/images/travel-imgs/can/can1.jpg" class="intl-travel-thumbnail"></a>
           <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <a href="http://jameswmoody.com/travel/can"><button class="btn btn-default btn-xs">Photos</button></a></p><br>
+          <p>Growing up in Metro Detroit, going to Canada has never really felt like visting a different country to me. Being a short 3 minute drive over the bridge from Windsor, ON (or through the underground tunnel), visiting Canada has usually felt like visiting America's suburb. Although I have technically been to Canada a countless number of times (with the exception of a weekend trip to Niagra Falls at 17) I had never ventured any further than Windsor. That all changed with a recent trip to Vancouver/Whister, BC for a wedding. While Vancouver itself was weird in a very cool way, checking out Whistler was great experience of it's own. I won't try to describe it with words since none will do it justice but feel free to take a look at some of my pictures.<a href="http://jameswmoody.com/travel/can"><button class="btn btn-default btn-xs">Photos</button></a></p><br>
         </div>
       </div>     
   </div>
-
 
   <div class="container-wide">
     <div class="container-wide">
@@ -398,6 +411,8 @@
         var port = {lat: 45.523064, lng: -122.676483};
         var sea = {lat: 47.608013, lng: -122.335167};
         var omaha = {lat: 41.257160, lng: -95.995102};
+        var bos = {lat: 42.3601, lng: -71.0589};
+        var prov = {lat: 41.8240, lng: -71.4128};
 
         /* Countries */
         var can = {lat: 49.246292, lng: -123.116226};
@@ -411,7 +426,7 @@
           scrollwheel: false
         });
 
-        var cities = [nyc, dc, mil, lv, la, sf, cle, mem, atl, stl, indy, lou, sd, phx, min, phi, dal, fwt, atx, sa, hou, sj, kc, des, mv, moab, flag, four, nash, oak, port, sea, omaha, can, mex, kor, jpn];
+        var cities = [nyc, dc, mil, lv, la, sf, cle, mem, atl, stl, indy, lou, sd, phx, min, phi, dal, fwt, atx, sa, hou, sj, kc, des, mv, moab, flag, four, nash, oak, port, sea, omaha, bos, prov, can, mex, kor, jpn];
 
         for (var i = cities.length; i >= 0; i--) {
           var marker = new google.maps.Marker({
