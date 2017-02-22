@@ -1,0 +1,43 @@
+.shape1, .shape2  {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 100px;
+  z-index: 1;
+}
+.shape2 {
+  background-color: orange;
+}
+
+.trump {
+  width: 200px;
+  height: 500px;
+  background-color: black;
+  display: inline-block;
+  z-index: -1;
+}
+
+.shape3, .shape4 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: inline-block;
+  margin-left: 100px;
+  z-index: 1;
+}
+.shape4 {
+  background-color: blue;
+}
+
+.hide {
+  display: none;
+}
+body {
+  margin: 0;
+}
+#c {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
